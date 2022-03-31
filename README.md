@@ -30,10 +30,10 @@ Portrait view of the app
 
 Landscape view of the app
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://media.giphy.com/media/agl8x20krVDwSBByx5/giphy.gif"><br>
 
 The transition between portrait and landscape orientation of the app
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://media.giphy.com/media/91UUbTiEtuHQyxOITz/giphy.gif"><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
