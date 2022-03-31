@@ -10,6 +10,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 
 private const val TAG = "MovieAdapter"
 
@@ -42,11 +43,15 @@ class MovieAdapter(private val context: Context, private val movies: List<Movie>
             val orientation: Int = context.resources.configuration.orientation
             if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
                 // Populate image view
-                Glide.with(context).load(movie.backdropUrl).into(ivPoster)
+                Glide.with(context)
+                    .load(movie.backdropUrl)
+                    .into(ivPoster)
             }
             else {
                 // Changed here
-                Glide.with(context).load(movie.posterImageUrl).into(ivPoster)
+                Glide.with(context)
+                    .load(movie.posterImageUrl)
+                    .into(ivPoster)
             }
         }
     }
