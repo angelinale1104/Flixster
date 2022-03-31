@@ -27,8 +27,7 @@ Portrait view of the app
 
 <img src="https://media.giphy.com/media/rjifMp6sAkuw25NNzi/giphy.gif" width=250><br>
 
-<img src="https://media1.giphy.com/media/rjifMp6sAkuw25NNzi/giphy.gif?cid=790b76119e941f85e00422f1a2960be70de96341e52637d7&rid=giphy.gif&ct=g" width=250><br>
-
+<iframe src="https://giphy.com/embed/rjifMp6sAkuw25NNzi" width="224" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/rjifMp6sAkuw25NNzi">via GIPHY</a></p>
 
 
 Landscape view of the app
