@@ -27,16 +27,20 @@ Portrait view of the app
 
 <img src="https://media.giphy.com/media/rjifMp6sAkuw25NNzi/giphy.gif"><br>
 
-
 Landscape view of the app
 
 <img src="https://media.giphy.com/media/agl8x20krVDwSBByx5/giphy.gif"><br>
 
 The transition between portrait and landscape orientation of the app
+
 <img src="https://media.giphy.com/media/91UUbTiEtuHQyxOITz/giphy.gif"><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
+
+- I had some trouble figuring out how to add teh XML file for the landscape orientation even though I have followed the instructions. After figuring out how to add the landscape view for the app, the UI still does not look like what I expected. However, after adding a separate layout file for the landscape view instead of reusing the layout file of the portrait view, I was able to make the UI look like what I want in both orientations.
+- I also encountered some troubles using Glide to add more style to the images. However, after giving it some thoughts, I realized that I can change the styles of the images (i.e add border, add margin, etc) directly in Android Studio without having to use effects from Glide library.
+- Finally, since the demo GIFs I recorded was a bit long, I could not figure out how to make the hosted GIF files look better when being included in this README. The website that hosts my GIFs compresses the files, which makes them a little blurry. 
 
 ### Open-source libraries used
 
