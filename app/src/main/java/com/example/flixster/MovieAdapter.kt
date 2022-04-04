@@ -16,7 +16,11 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import android.util.Pair as UtilPair
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 
+import com.bumptech.glide.load.resource.bitmap.CenterCrop
+
+import com.bumptech.glide.request.RequestOptions
 
 const val MOVIE_EXTRA = "MOVIE_EXTRA"
 private const val TAG = "MovieAdapter"

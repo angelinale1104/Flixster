@@ -67,7 +67,6 @@ class DetailActivity : YouTubeBaseActivity() {
                 // PLay youtube video with this trailer only when in onSuccess
                 initializeYoutube(youtubeKey, ratingBar.rating)
             }
-
         })
     }
 
