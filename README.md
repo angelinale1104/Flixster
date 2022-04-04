@@ -29,7 +29,9 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### Notes
 
 Describe any challenges encountered while building the app.
-- I had some difficulty trying to implementing the shared element transition despite following the Codepath guide and the Android Developer documentation.
+- I had some difficulty trying to implementing the shared element transition despite following the Codepath guide and the Android Developer documentation. However, I was able to figure out how to do this after spending some more time on it.
+- I was struggling a little bit when I was trying to add an overlay play icon on top of the poster. After watching a few Youtube tutorials, I was able to create my own drawable and put it on top of the poster using another ImageView.
+- I was unable to implement the rounded corners using Glide library for the posters without messing up my entire UI. Despite looking through the Glide documentation, CodePath guides and several StackOverflow issues, I could not figure it out.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
