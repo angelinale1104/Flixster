@@ -22,9 +22,15 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthough GIF
 
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
+Note: Regarding the demo for popular trailers that play automatically and the play icon overplay for popular movies, since all of the movies in my demo are popular (i.e have more than 5 stars), all of the posters have the play icon overlay and the trailers play automatically!
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+Portrait view of the app - Part 2 <br>
+
+<img src="https://media.giphy.com/media/6iuSFln5v6JIoBrap2/giphy.gif" height=250><br>
+
+Landscape view of the app - Part 2 <br>
+
+<img src="https://media.giphy.com/media/o2GtOYqcTNrYN8hiVs/giphy.gif" width=250><br>
 
 ### Notes
 
@@ -32,6 +38,7 @@ Describe any challenges encountered while building the app.
 - I had some difficulty trying to implementing the shared element transition despite following the Codepath guide and the Android Developer documentation. However, I was able to figure out how to do this after spending some more time on it.
 - I was struggling a little bit when I was trying to add an overlay play icon on top of the poster. After watching a few Youtube tutorials, I was able to create my own drawable and put it on top of the poster using another ImageView.
 - I was unable to implement the rounded corners using Glide library for the posters without messing up my entire UI. Despite looking through the Glide documentation, CodePath guides and several StackOverflow issues, I could not figure it out.
+- Finally, similar to part 1, since the demo GIFs I recorded was a bit long, I could not figure out how to make the hosted GIF files look better when being included in this README. The website that hosts my GIFs compresses the files, which makes them a little blurry. 
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
