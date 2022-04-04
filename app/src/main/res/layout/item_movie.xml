@@ -17,10 +17,26 @@
         android:background="@color/purple_500"
         android:cropToPadding="true"
         android:padding="3dp"
+        android:transitionName="player"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/icon_play"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:contentDescription="Play icon to be displayed if movie is popular"
+        android:src="@drawable/play_icon"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/ivPoster"
+        app:layout_constraintEnd_toEndOf="@+id/ivPoster"
+        app:layout_constraintStart_toStartOf="@+id/ivPoster"
+        app:layout_constraintTop_toTopOf="@+id/ivPoster" />
+
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="0dp"
@@ -29,11 +45,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:ellipsize="end"
+        android:gravity="center"
         android:maxLines="2"
         android:text="Turning Red"
-        android:textColor= "@color/purple_500"
-        android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/purple_500"
+        android:transitionName="title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivPoster"
         app:layout_constraintTop_toTopOf="parent" />
@@ -46,8 +63,8 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
         android:ellipsize="end"
-        android:maxLines="6"
         android:justificationMode="inter_word"
+        android:maxLines="6"
         android:text="Thirteen-year-old Mei is experiencing the awkwardness of being a teenager with a twist – when she gets too excited, she transforms into a giant red panda."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivPoster"
